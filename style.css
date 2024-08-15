@@ -3,13 +3,20 @@
     --cinza-secundario:#c0c0c0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
 }
 
 *{
-    margim:0;
-}   pading:0;
+    margin: 0;
+   padding: 0;
+}
 
-.container-principal{
-background-image:url(background.pang);
+body{
+    background-color: var(--cor-de-de-fundo);
+    color: var(--branco-principal);
+    family-font:var(--fonte-principal);
+}
+.principal{
+    background-image: url("Background.png");
 
 }
