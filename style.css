@@ -48,7 +48,7 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     padding: 1em;
-    color: var(--branco-principal)
+    color: var(--branco-principal);
 }
 
 .container__aviso {
@@ -69,6 +69,8 @@ body {
 
 .secundario{
     align-items: center;
+    margin: 0 10em;
+    text-align: left;
 }
 
 .secundario__imagem{
@@ -76,13 +78,20 @@ body {
 }
 
 .container__descricao{
-
+    padding: 2em;
 }
 
 .descricao__titulo{
     font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 }
 
 .descricao__texto{
-    margin: 1em 0;
+    color: var(--cinza-secundario);
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 }
