@@ -95,3 +95,29 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+.container__descricao{
+    pading: 2em;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+
+.dispositivo__titulo{
+    text-align: center;
+}
+
+.dispositivo__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
